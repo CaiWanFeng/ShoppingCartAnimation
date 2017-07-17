@@ -13,6 +13,8 @@
 		D922242E1F1C99DB00F65998 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D922242C1F1C99DB00F65998 /* Main.storyboard */; };
 		D92224301F1C99DB00F65998 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D922242F1F1C99DB00F65998 /* Assets.xcassets */; };
 		D92224331F1C99DB00F65998 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D92224311F1C99DB00F65998 /* LaunchScreen.storyboard */; };
+		D922243C1F1C9A2A00F65998 /* ShoppingCartTool.m in Sources */ = {isa = PBXBuildFile; fileRef = D922243B1F1C9A2A00F65998 /* ShoppingCartTool.m */; };
+		D922243E1F1C9CBF00F65998 /* hehe.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D922243D1F1C9CBF00F65998 /* hehe.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,9 @@
 		D922242F1F1C99DB00F65998 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D92224321F1C99DB00F65998 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D92224341F1C99DB00F65998 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D922243A1F1C9A2A00F65998 /* ShoppingCartTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShoppingCartTool.h; sourceTree = "<group>"; };
+		D922243B1F1C9A2A00F65998 /* ShoppingCartTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShoppingCartTool.m; sourceTree = "<group>"; };
+		D922243D1F1C9CBF00F65998 /* hehe.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = hehe.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,11 +67,14 @@
 				D92224271F1C99DB00F65998 /* AppDelegate.m */,
 				D92224291F1C99DB00F65998 /* ViewController.h */,
 				D922242A1F1C99DB00F65998 /* ViewController.m */,
+				D922243D1F1C9CBF00F65998 /* hehe.jpg */,
 				D922242C1F1C99DB00F65998 /* Main.storyboard */,
 				D922242F1F1C99DB00F65998 /* Assets.xcassets */,
 				D92224311F1C99DB00F65998 /* LaunchScreen.storyboard */,
 				D92224341F1C99DB00F65998 /* Info.plist */,
 				D92224231F1C99DB00F65998 /* Supporting Files */,
+				D922243A1F1C9A2A00F65998 /* ShoppingCartTool.h */,
+				D922243B1F1C9A2A00F65998 /* ShoppingCartTool.m */,
 			);
 			path = ShoppingCartAnimation;
 			sourceTree = "<group>";
@@ -139,6 +147,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D92224331F1C99DB00F65998 /* LaunchScreen.storyboard in Resources */,
+				D922243E1F1C9CBF00F65998 /* hehe.jpg in Resources */,
 				D92224301F1C99DB00F65998 /* Assets.xcassets in Resources */,
 				D922242E1F1C99DB00F65998 /* Main.storyboard in Resources */,
 			);
@@ -152,6 +161,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D922242B1F1C99DB00F65998 /* ViewController.m in Sources */,
+				D922243C1F1C9A2A00F65998 /* ShoppingCartTool.m in Sources */,
 				D92224281F1C99DB00F65998 /* AppDelegate.m in Sources */,
 				D92224251F1C99DB00F65998 /* main.m in Sources */,
 			);
