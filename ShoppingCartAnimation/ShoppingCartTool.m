@@ -70,9 +70,7 @@
     
     //------- 动画结束后执行 -------//
     dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(durationTime * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
-        // 动画结束后异步执行这里的代码...
         [animationLayer removeFromSuperlayer];
-        // 执行动画完成的block
         completion(YES);
     });
 }
