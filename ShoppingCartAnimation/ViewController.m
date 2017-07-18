@@ -60,12 +60,8 @@
 
 /** 加入购物车按钮点击 */
 - (void)addButtonClicked:(UIButton *)sender {
-    __weak typeof(self) weakSelf = self;
-    
     [ShoppingCartTool addToShoppingCartWithGoodsImage:[UIImage imageNamed:@"heheda"] startPoint:self.addButton.center endPoint:self.shoppingCartButton.center completion:^(BOOL finished) {
         NSLog(@"动画结束了");
-        
-        __strong typeof(self) strongSelf = weakSelf;
         
         //------- 颤抖吧 -------//
         CABasicAnimation *scaleAnimation = [CABasicAnimation animationWithKeyPath:@"transform.scale"];
@@ -75,7 +71,7 @@
         scaleAnimation.repeatCount = 2; // 颤抖两次
         scaleAnimation.autoreverses = YES;
         scaleAnimation.timingFunction = [CAMediaTimingFunction functionWithName:kCAMediaTimingFunctionEaseInEaseOut];
-        [strongSelf.goodsNumLabel.layer addAnimation:scaleAnimation forKey:nil];
+        [self.goodsNumLabel.layer addAnimation:scaleAnimation forKey:nil];
     }];
 }
 
