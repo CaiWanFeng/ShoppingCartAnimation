@@ -14,7 +14,8 @@
 		D92224301F1C99DB00F65998 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D922242F1F1C99DB00F65998 /* Assets.xcassets */; };
 		D92224331F1C99DB00F65998 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D92224311F1C99DB00F65998 /* LaunchScreen.storyboard */; };
 		D922243C1F1C9A2A00F65998 /* ShoppingCartTool.m in Sources */ = {isa = PBXBuildFile; fileRef = D922243B1F1C9A2A00F65998 /* ShoppingCartTool.m */; };
-		D922243E1F1C9CBF00F65998 /* hehe.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D922243D1F1C9CBF00F65998 /* hehe.jpg */; };
+		D97EFED11F1DA0FB0073976D /* heheda.png in Resources */ = {isa = PBXBuildFile; fileRef = D97EFED01F1DA0FB0073976D /* heheda.png */; };
+		D97EFED31F1DA2F10073976D /* cart.png in Resources */ = {isa = PBXBuildFile; fileRef = D97EFED21F1DA2F10073976D /* cart.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,7 +31,8 @@
 		D92224341F1C99DB00F65998 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D922243A1F1C9A2A00F65998 /* ShoppingCartTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShoppingCartTool.h; sourceTree = "<group>"; };
 		D922243B1F1C9A2A00F65998 /* ShoppingCartTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShoppingCartTool.m; sourceTree = "<group>"; };
-		D922243D1F1C9CBF00F65998 /* hehe.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = hehe.jpg; sourceTree = "<group>"; };
+		D97EFED01F1DA0FB0073976D /* heheda.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = heheda.png; sourceTree = "<group>"; };
+		D97EFED21F1DA2F10073976D /* cart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cart.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,7 +69,8 @@
 				D92224271F1C99DB00F65998 /* AppDelegate.m */,
 				D92224291F1C99DB00F65998 /* ViewController.h */,
 				D922242A1F1C99DB00F65998 /* ViewController.m */,
-				D922243D1F1C9CBF00F65998 /* hehe.jpg */,
+				D97EFED01F1DA0FB0073976D /* heheda.png */,
+				D97EFED21F1DA2F10073976D /* cart.png */,
 				D922242C1F1C99DB00F65998 /* Main.storyboard */,
 				D922242F1F1C99DB00F65998 /* Assets.xcassets */,
 				D92224311F1C99DB00F65998 /* LaunchScreen.storyboard */,
@@ -147,7 +150,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				D92224331F1C99DB00F65998 /* LaunchScreen.storyboard in Resources */,
-				D922243E1F1C9CBF00F65998 /* hehe.jpg in Resources */,
+				D97EFED31F1DA2F10073976D /* cart.png in Resources */,
+				D97EFED11F1DA0FB0073976D /* heheda.png in Resources */,
 				D92224301F1C99DB00F65998 /* Assets.xcassets in Resources */,
 				D922242E1F1C99DB00F65998 /* Main.storyboard in Resources */,
 			);
@@ -285,6 +289,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = YUSZJ893SU;
 				INFOPLIST_FILE = ShoppingCartAnimation/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = KuaiJianKang.ShoppingCartAnimation;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -297,6 +302,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = YUSZJ893SU;
 				INFOPLIST_FILE = ShoppingCartAnimation/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = KuaiJianKang.ShoppingCartAnimation;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -322,6 +328,7 @@
 				D92224391F1C99DB00F65998 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

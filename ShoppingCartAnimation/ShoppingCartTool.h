@@ -19,6 +19,9 @@
  @param endPoint   动画终点
  @param completion 动画执行完成后的回调
  */
-+ (void)addToShoppingCartWithGoodsImage:(UIImage *)goodsImage startPoint:(CGPoint)startPoint endPoint:(CGPoint)endPoint completion:(void (^)(BOOL finished))completion;
++ (void)addToShoppingCartWithGoodsImage:(UIImage *)goodsImage
+                             startPoint:(CGPoint)startPoint
+                               endPoint:(CGPoint)endPoint
+                             completion:(void (^)(BOOL finished))completion;
 
 @end
