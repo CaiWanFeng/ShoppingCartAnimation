@@ -121,8 +121,7 @@
 				TargetAttributes = {
 					D922241F1F1C99DB00F65998 = {
 						CreatedOnToolsVersion = 8.2;
-						DevelopmentTeam = YUSZJ893SU;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 					};
 				};
 			};
@@ -287,7 +286,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = YUSZJ893SU;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = ShoppingCartAnimation/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -300,7 +299,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = YUSZJ893SU;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = ShoppingCartAnimation/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
